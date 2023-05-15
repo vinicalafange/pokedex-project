@@ -18,7 +18,7 @@ header{
 }
 
 header .logo,
-header .sun-button{
+header .button-image{
     width: 30px;
     transition: 0.2s ease-in-out;
 }
@@ -29,7 +29,7 @@ header #theme-button{
 }
 
 header .logo:hover,
-header .sun-button:hover{
+header .button-image:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ main .pokemon-card:hover{
     transform: scale(1.05);
 }
 
-main .dark-mode .pokemon-card{
+.dark-mode .pokemon-card{
     background-color: #a8a8a8;
 }
 
